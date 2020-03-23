@@ -1,0 +1,98 @@
+body,html {
+	background-color: #FFF;
+}
+
+header{
+  background: #334e96;
+  padding: 10px 30px;
+  margin: auto;
+}
+
+h1 {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 40px;
+	color: #fff;
+}
+
+h2 {
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+#topnav {
+	float: right;
+	margin: auto;
+}
+
+#topnav a {
+	text-align: center;
+  padding: 10px 20px;
+	text-decoration: none;
+	background: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	font-family: monospace;
+	margin: 5px;
+}
+
+#topnav a:hover {
+	background: #000;
+	color: #fff;
+}
+
+table.blueTable {
+  font-family: "Courier New", Courier, monospace;
+  border: 2px solid #000000;
+  background-color: #FFFFFF;
+  width: 40%;
+  text-align: center;
+  border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+  color: #000000;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #334E96;
+  background: -moz-linear-gradient(top, #667ab0 0%, #475fa0 66%, #334E96 100%);
+  background: -webkit-linear-gradient(top, #667ab0 0%, #475fa0 66%, #334E96 100%);
+  background: linear-gradient(to bottom, #667ab0 0%, #475fa0 66%, #334E96 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 0px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
